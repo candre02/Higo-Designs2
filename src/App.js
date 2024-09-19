@@ -5,7 +5,7 @@ import About from "./pages/About.js";
 import Shop from "./pages/Shop.js";
 import Services from "./pages/Services.js";
 import HigoDesigns from "./pages/HigoDesigns.js";
-import Payment from "./pages/Payment.js";
+// import Payment from "./pages/Payment.js";
 
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 // import chakraProvider element
@@ -25,10 +25,10 @@ function App() {
           <div className="App">
             <NavBar />
             <Routes>
-              <Route exact path="/" element={<HigoDesigns />} />
-              <Route exact path="/about" element={<About/>} />
-              <Route exact path="/shop" element={<Shop/>} />
-              <Route exact path="/services" element={<Services/>} />
+              <Route  path="/" element={<HigoDesigns />} />
+              <Route  path="/about" element={<About/>} />
+              <Route  path="/shop" element={<Shop/>} />
+              <Route  path="/services" element={<Services/>} />
               {/* <Route exact path="/payment" element={<Payment/>} /> */}
             </Routes>
             <Footer />
