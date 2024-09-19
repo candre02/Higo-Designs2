@@ -345,6 +345,7 @@ a {
 
 #contact1 {
   background-color: var(--primary);
+  border-width: 10px;
 }
 
 #home {
