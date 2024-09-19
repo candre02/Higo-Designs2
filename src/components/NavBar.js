@@ -3,6 +3,7 @@
 import { Navbar, Nav, Container,  } from 'react-bootstrap'
 import React from 'react'
 import { BagIcon } from 'chakra-ui-ionicons';
+import { Link } from 'react-router-dom';
 
 const AppNavbar = () => {
     // set modal display state
@@ -11,14 +12,14 @@ const AppNavbar = () => {
     return (
         <Navbar bg="dark" variant="dark" expand="lg" id="heading">
           <Container fluid id='tabs'>
-            <Navbar.Brand href="/" id='HD1'>HigoDesigns</Navbar.Brand>
+            <Link href="/" id='HD1'>HigoDesigns</Link>
             <Navbar.Toggle aria-controls="navbar" />
             <Navbar.Collapse id="navbar">
               <Nav className="ml-auto">
-                <Nav.Link href="/about">About</Nav.Link>
-                <Nav.Link href="/shop">Shop</Nav.Link>
-                <Nav.Link href="/services">Services</Nav.Link>
-                <Nav.Link href='/apppayment'><BagIcon w={6} h={6} /></Nav.Link>
+                <Link to="/about">About</Link>
+                <Link to="/shop">Shop</Link>
+                <Link to="/services">Services</Link>
+                {/* <Link to='/apppayment'><BagIcon w={6} h={6} /></Link> */}
                 </Nav>
           </Navbar.Collapse>
         </Container>
