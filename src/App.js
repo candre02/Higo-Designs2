@@ -7,7 +7,7 @@ import Services from "./pages/Services.js";
 import HigoDesigns from "./pages/HigoDesigns.js";
 // import Payment from "./pages/Payment.js";
 
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import chakraProvider element
 import { ChakraProvider } from "@chakra-ui/react";
 // import elements
@@ -21,7 +21,7 @@ function App() {
   return (
 
       <ChakraProvider>
-        <Router basename="/Higo-Designs2">
+        <Router >
           <div className="App">
             <NavBar />
             <Routes>
