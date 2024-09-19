@@ -19,7 +19,7 @@ main {
 }
 
 :root  {
-  --primary:olive;
+  --primary: rgb(11, 3, 15);
   --secondary: peru;
   --tertiary: green;
   --light: whitesmoke;
