@@ -25,7 +25,8 @@ import backgroundImage from "../assets/images/trialcandles.jpg";
               sm: 16,
               md: 20,
               lg: 28,
-              xl: 32,
+              xl: 32
+              
             }}
             maxW={{
               lg: "2xl",

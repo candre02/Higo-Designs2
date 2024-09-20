@@ -324,7 +324,7 @@ a {
 }
 
 #heading {
-  background-color: var(--primary);
+  background-color: rgb(11, 3, 15);
   border-radius: 8px;
   border-style:groove;
   margin-bottom: 1000px;
@@ -338,26 +338,26 @@ a {
   position: absolute;
   margin-left: 100px;
   font-size: 38px;
-  color: rgb(70, 21, 70);
+  color: #cccccc;
   
 }
 
 #about1 {
   margin-left: 1300px;
   font-size: x-large;
-  color: rgb(70, 21, 70);
+  color: #cccccc;
 }
 
 #shop1 {
   margin-left: 20px;
   font-size: x-large;
-  color: rgb(70, 21, 70);
+  color: #cccccc;
 }
 
 #srv1 {
   margin-left: 20px;
   font-size: x-large;
-  color: rgb(70, 21, 70);
+  color: #cccccc;
 }
 
 #tabs {
@@ -365,16 +365,23 @@ a {
   font-family: 'Roboto', sans-serif;
   margin-left: 160px;
   bottom: 10px;
+  
 }
 
 #contact1 {
-  background-color: var(--primary);
-  border-width: 50px;
+  background-color: rgb(11, 3, 15);
+  border-width: 100px;
   margin-top: 305px;
   border-radius: 8px;
   border-style:hidden;
+  height: -100px;
+  color: #cccccc;
+ 
 }
 
 #home {
-  background-color: var(--dark);
+  background-color: rgb(11, 3, 15);
+  height: 1500px;
+  width: 100%;
+  
 }
