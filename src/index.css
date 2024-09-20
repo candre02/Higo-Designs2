@@ -22,7 +22,7 @@ main {
   --primary: rgb(33, 78, 52);
   --secondary: peru;
   --tertiary: green;
-  --light: whitesmoke;
+  --light: rgb(33, 78, 52);
   --dark: rgb(168, 151, 77);
   --darker: rgb(40, 109, 63);
   --lighter: rgb(11, 3, 15);
