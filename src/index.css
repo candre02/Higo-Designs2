@@ -328,7 +328,7 @@ a {
   border:rgb(18, 87, 143);
   border-style:groove;
   margin-bottom: 40px;
-  margin-top: 40px;
+  margin-top: 0px;
   height: auto;
   width: auto;
   left: 340px;
@@ -348,6 +348,7 @@ a {
 #contact1 {
   background-color: var(--primary);
   border-width: 10px;
+  margin-top: 305px;
 }
 
 #home {
