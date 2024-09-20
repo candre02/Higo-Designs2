@@ -16,9 +16,9 @@ const AppNavbar = () => {
             <Navbar.Toggle aria-controls="navbar" />
             <Navbar.Collapse id="navbar">
               <Nav className="ml-auto">
-                <Link to="/about">About</Link>
-                <Link to="/shop">Shop</Link>
-                <Link to="/services">Services</Link>
+                <Link to="/about" id='about1'>About</Link>
+                <Link to="/services" id='srv1'>Services</Link>
+                <Link to="/shop" id='shop1'>Shop</Link>
                 {/* <Link to='/apppayment'><BagIcon w={6} h={6} /></Link> */}
                 </Nav>
           </Navbar.Collapse>
