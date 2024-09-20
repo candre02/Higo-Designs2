@@ -20,7 +20,7 @@ main {
 
 :root  {
   --primary: rgb(33, 78, 52);
-  --secondary: ;
+  --secondary: rgb(25, 92, 47);
   --tertiary: ;
   --light: rgb(33, 78, 52);
   --dark: ;
@@ -32,7 +32,7 @@ main {
   box-sizing: border-box;
   border-style: solid;
   border-width: 10px;
-  border-color: green;
+  /* border-color: green; */
 }
 
 html,
@@ -51,9 +51,9 @@ body {
   height: 500px;
   position: relative;
   min-height: 100%;
-  background-color: rgb(46, 131, 103);
   background-repeat: no-repeat;
   background-position: right top;
+  background-color: var(--secondary rgb(25, 92, 47));
 }
 
 
@@ -397,14 +397,17 @@ a {
 #ab1 {
   height: -00px;
   margin-bottom: 800px;
+  background-color: rgb(25, 92, 47);
 
 }
 
 #shoppingcards {
   margin-top: 100px;
   margin-bottom: 100px;
+  background-color: rgb(25, 92, 47)
 }
 
 #srv2{
   margin-bottom: 300px;
+  background-color: rgb(25, 92, 47);
 }

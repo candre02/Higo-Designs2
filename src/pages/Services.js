@@ -115,7 +115,7 @@ export default function Services() {
                     textAlign="center"
                     w="full"
                     mb="8"
-                    color="white"
+                    color="background-color rgb(25, 92, 47)"
                   >
                     <Text fontSize="2xl">{slide.label}</Text>
                     <Text fontSize="lg">{slide.description}</Text>
