@@ -29,7 +29,7 @@ function App() {
               <Route  path="/about" element={<About/>} />
               <Route  path="/shop" element={<Shop/>} />
               <Route  path="/services" element={<Services/>} />
-              {/* <Route exact path="/payment" element={<Payment/>} /> */}
+              {/* <Route  path="/payment" element={<Payment/>} /> */}
             </Routes>
             <Footer />
           </div>
