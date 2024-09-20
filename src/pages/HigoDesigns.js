@@ -10,7 +10,7 @@ import {
 } from '@chakra-ui/react'
 
 // import bg img
-import backgroundImage from '../assets/images/trialcandles.jpg';
+import backgroundImage from "../assets/images/trialcandles.jpg";
 
   
   export default function HigoDesigns() {
