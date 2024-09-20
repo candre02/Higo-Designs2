@@ -244,11 +244,16 @@ import backgroundImage from "../assets/images/trialcandles.jpg";
             h={[56, 72, 96, "full"]}
             w="full"
             fit="cover"
-            src='backgroundImage'
+            src="backgroundImage"
             alt="candles"
             loading="lazy"
             bg="gray.100"
             opacity={0.4}
+            background={"url(" + backgroundImage + ")"}
+            backgroundColor={"green"}
+            backgroundPosition={"center"}
+            backgroundSize={"cover"}
+            backgroundRepeat={"no-repeat"}
           
           />
         </Box>
