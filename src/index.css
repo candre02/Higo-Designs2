@@ -325,8 +325,7 @@ a {
 
 #heading {
   background-color: var(--primary);
-  border-radius: 10px;
- 
+  border-radius: 8px;
   border-style:groove;
   margin-bottom: 1000px;
   margin-top: 0px;
@@ -370,8 +369,10 @@ a {
 
 #contact1 {
   background-color: var(--primary);
-  border-width: 10px;
+  border-width: 50px;
   margin-top: 305px;
+  border-radius: 8px;
+  border-style:hidden;
 }
 
 #home {

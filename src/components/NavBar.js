@@ -12,7 +12,7 @@ const AppNavbar = () => {
     return (
         <Navbar bg="dark" variant="dark" expand="lg" id="heading">
           <Container fluid id='tabs'>
-            <Link href="/" id='HD1'>HigoDesigns</Link>
+            <Link to="/" id='HD1'>HigoDesigns</Link>
             <Navbar.Toggle aria-controls="navbar" />
             <Navbar.Collapse id="navbar">
               <Nav className="ml-auto">
