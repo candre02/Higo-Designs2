@@ -42,7 +42,7 @@ body {
 
 body {
   margin: 0;
-  padding: 0px; 
+  padding: 0; 
   font-weight: 600;
   line-height: 1.5;
   font-size: 18px;
@@ -54,6 +54,7 @@ body {
   background-color: rgb(46, 131, 103);
   background-repeat: no-repeat;
   background-position: right top;
+  display: flex;
 }
 
 
@@ -328,9 +329,9 @@ a {
   background-color: rgb(11, 3, 15);
   border-radius: 8px;
   border-style:hidden;
-  margin-bottom: 1000px;
+  margin-bottom: -45px;
   margin-top: 0px;
-  height: 70px;
+  height: 120px;
   border-width: 2000px;
   left: 340px;
 }
@@ -377,7 +378,8 @@ a {
 #contact1 {
   background-color: rgb(11, 3, 15);
   border-width: 100px;
-  margin-top: 305px;
+  margin-top: 0px;
+  margin-bottom: 0;
   border-radius: 8px;
   border-style:hidden;
   height: -100px;
@@ -387,13 +389,20 @@ a {
 
 #home {
   background-color: rgb(11, 3, 15);
-  height: 1800px;
+  height: 700px;
   width: 100%;
+
+  
 }
 
 #ab1 {
   height: -00px;
   margin-bottom: 500px;
 
+}
+
+#shoppingcards {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
