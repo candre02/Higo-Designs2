@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Higo-Designs2/static/css/main.9a804324.css",
+    "main.css": "/Higo-Designs2/static/css/main.ebf486f9.css",
     "main.js": "/Higo-Designs2/static/js/main.5fb213f8.js",
     "static/media/trialcandles.jpg": "/Higo-Designs2/static/media/trialcandles.72a4790400e7e1cc09af.jpg",
     "index.html": "/Higo-Designs2/index.html",
-    "main.9a804324.css.map": "/Higo-Designs2/static/css/main.9a804324.css.map",
+    "main.ebf486f9.css.map": "/Higo-Designs2/static/css/main.ebf486f9.css.map",
     "main.5fb213f8.js.map": "/Higo-Designs2/static/js/main.5fb213f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a804324.css",
+    "static/css/main.ebf486f9.css",
     "static/js/main.5fb213f8.js"
   ]
 }
