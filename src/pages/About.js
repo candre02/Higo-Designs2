@@ -11,7 +11,7 @@ import {
 export default function About() {
   return (
     <>
-     <Container maxW={'7xl'} id={'ab1'}>
+     <Container maxW={'7xl'} id="ab1">
         <Stack
           as={Box}
           textAlign={'center'}
